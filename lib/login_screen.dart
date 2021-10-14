@@ -14,7 +14,7 @@ class _LoginScreenState extends State<LoginScreen> {
       child: Scaffold(
         body: SingleChildScrollView(
           child: Container(
-            height: 800,
+            height: 600,
             color: Colors.blue.shade400,
             child: Column(
               children: [
