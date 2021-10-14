@@ -21,17 +21,21 @@ class _LoginScreenState extends State<LoginScreen> {
                 Container(
                   margin: EdgeInsets.fromLTRB(0, 50, 0, 0),
                   child: Center(
-                      child: Text(
-                    'Sign In to continue ',
+
+                    'Sign In to continue',
+
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   )),
                 ),
                 SizedBox(height: 40),
+
+              
                  Container(
                   margin: EdgeInsets.fromLTRB(0, 50, 0, 0),
                   child: Center(
                       child: Text(
                     'Hacktober fest op',
+
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   )),
                 ),
