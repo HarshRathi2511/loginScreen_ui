@@ -27,6 +27,14 @@ class _LoginScreenState extends State<LoginScreen> {
                   )),
                 ),
                 SizedBox(height: 40),
+                 Container(
+                  margin: EdgeInsets.fromLTRB(0, 50, 0, 0),
+                  child: Center(
+                      child: Text(
+                    'Hacktober fest op',
+                    style: TextStyle(fontSize: 30, color: Colors.white),
+                  )),
+                ),
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
