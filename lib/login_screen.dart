@@ -22,7 +22,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   margin: EdgeInsets.fromLTRB(0, 50, 0, 0),
                   child: Center(
                       child: Text(
-                    'Sign In',
+                    'Sign In to continue ',
                     style: TextStyle(fontSize: 30, color: Colors.white),
                   )),
                 ),
