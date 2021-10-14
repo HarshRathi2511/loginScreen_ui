@@ -204,7 +204,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     TextButton(
                       onPressed: () {},
                       child: Text(
-                        'Sign Up',
+                        'Sign Up to continue',
                         style: TextStyle(
                             fontWeight: FontWeight.bold, color: Colors.white),
                       ),
